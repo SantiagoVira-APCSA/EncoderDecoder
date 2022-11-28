@@ -17,6 +17,11 @@ public class Decoder {
         this.shift = 1;
     }
 
+    public Decoder(int shift) {
+        this.alphabet = "abcdefghijklmnopqrstuvwxyz";
+        this.shift = shift;
+    }
+
     public Decoder(String alphabet, int shift) {
         this.alphabet = alphabet;
         this.shift = shift;

@@ -17,6 +17,11 @@ public class Encoder {
         this.shift = 1;
     }
 
+    public Encoder(int shift) {
+        this.alphabet = "abcdefghijklmnopqrstuvwxyz";
+        this.shift = shift;
+    }
+
     public Encoder(String alphabet, int shift) {
         this.alphabet = alphabet;
         this.shift = shift;
