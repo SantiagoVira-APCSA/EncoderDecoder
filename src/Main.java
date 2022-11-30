@@ -44,6 +44,13 @@ public class Main {
         input.close();
     }
 
+    /**
+     * Text surrounder function for extra beautification. Takes a message and surrounds it with a certain character.
+     *
+     * @param str Represents the message to surround.
+     * @param s   Represents the character to use to surround the message.
+     * @return Returns a message surrounded in a box of the character.
+     */
     public static String textSurrounder(String str, String s) {
         //Put your code here!
         String[] lines = str.split("\n");

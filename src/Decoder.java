@@ -1,3 +1,7 @@
+/**
+ * The Decoder class creates an object with a certain alphabet and shift amount. The object can then be used to decode
+ * a message.
+ */
 public class Decoder {
     private String alphabet;
     private int shift;
