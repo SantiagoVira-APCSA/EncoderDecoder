@@ -1,3 +1,7 @@
+/**
+ * The Encoder class creates an object with a certain alphabet and shift amount. The object can then be used to encode
+ * a message.
+ */
 public class Encoder {
     private String alphabet;
     private int shift;
@@ -75,6 +79,11 @@ public class Encoder {
         return secret;
     }
 
+    /**
+     * A method to print the encoded message.
+     *
+     * @param message Represents the message to print.
+     */
     public void printEncode(String message) {
         System.out.println("Encoded message: " + encode(message));
     }
