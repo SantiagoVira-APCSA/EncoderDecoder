@@ -85,6 +85,10 @@ public class Decoder {
      * @param message Represents the message to print.
      */
     public void printDecode(String message) {
-        System.out.println("Decoded message: " + decode(message));
+        System.out.println(
+                Main.textSurrounder(
+                        Main.textSurrounder("Encoded message: " + decode(message), " "),
+                        "=")
+        );
     }
 }
